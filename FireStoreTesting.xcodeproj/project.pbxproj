@@ -18,6 +18,7 @@
 		90652A68216D5B6B009B56EA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90652A67216D5B6A009B56EA /* ProfileViewController.swift */; };
 		9088BF83216D271800D698AE /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088BF82216D271800D698AE /* SignupViewController.swift */; };
 		9088BF85216D272000D698AE /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088BF84216D272000D698AE /* SigninViewController.swift */; };
+		C3CA2523216D94C700BA4087 /* PhotoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA2522216D94C700BA4087 /* PhotoSelectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		9088BF82216D271800D698AE /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		9088BF84216D272000D698AE /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		B11155BA6458203878A2F6E8 /* Pods-FireStoreTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireStoreTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireStoreTesting/Pods-FireStoreTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		C3CA2522216D94C700BA4087 /* PhotoSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectViewController.swift; sourceTree = "<group>"; };
 		DEF83CFEE06F2A6DE1DD9BF1 /* Pods_FireStoreTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireStoreTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		9088BF86216D272400D698AE /* VCs */ = {
 			isa = PBXGroup;
 			children = (
+				C3CA2522216D94C700BA4087 /* PhotoSelectViewController.swift */,
 				9088BF82216D271800D698AE /* SignupViewController.swift */,
 				9088BF84216D272000D698AE /* SigninViewController.swift */,
 				90652A67216D5B6A009B56EA /* ProfileViewController.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90652A68216D5B6B009B56EA /* ProfileViewController.swift in Sources */,
+				C3CA2523216D94C700BA4087 /* PhotoSelectViewController.swift in Sources */,
 				9021CDF1216C35CD00E80104 /* AppDelegate.swift in Sources */,
 				9088BF85216D272000D698AE /* SigninViewController.swift in Sources */,
 				9021CE08216D15F300E80104 /* UserController.swift in Sources */,

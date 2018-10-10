@@ -211,21 +211,39 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTZ-lm-M0M">
-                                <rect key="frame" x="161.5" y="432" width="52" height="30"/>
-                                <state key="normal" title="Sign up"/>
+                                <rect key="frame" x="75" y="579" width="225" height="69.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" red="0.49957716464996338" green="0.94792670011520386" blue="0.090003557503223419" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="signUpButtonTapped:" destination="FWV-E2-dvh" eventType="touchUpInside" id="NEb-V4-Ih8"/>
                                     <segue destination="T9y-gZ-UBi" kind="show" id="DFC-2E-eFo"/>
                                 </connections>
                             </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7N6-f6-bYF">
+                                <rect key="frame" x="75" y="329" width="225" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7N6-f6-bYF" secondAttribute="height" multiplier="1:1" id="ACT-77-DEU"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="cBM-4G-7iT" kind="embed" id="nuy-0m-2hq"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="qTZ-lm-M0M" firstAttribute="centerY" secondItem="toA-Tk-bcf" secondAttribute="centerY" constant="113.5" id="D5K-zp-FuA"/>
+                            <constraint firstItem="qTZ-lm-M0M" firstAttribute="width" secondItem="7N6-f6-bYF" secondAttribute="width" id="CG5-eC-KkU"/>
+                            <constraint firstItem="qTZ-lm-M0M" firstAttribute="centerY" secondItem="toA-Tk-bcf" secondAttribute="centerY" multiplier="1.5" constant="113.5" id="D5K-zp-FuA"/>
+                            <constraint firstItem="7N6-f6-bYF" firstAttribute="top" secondItem="WHH-Yx-wZE" secondAttribute="bottom" constant="25" id="GPd-Ft-JLK"/>
+                            <constraint firstItem="qTZ-lm-M0M" firstAttribute="top" secondItem="7N6-f6-bYF" secondAttribute="bottom" constant="25" id="JJS-Cm-gFq"/>
                             <constraint firstItem="WHH-Yx-wZE" firstAttribute="leading" secondItem="d1M-uz-l3M" secondAttribute="leading" id="JNV-wN-g1h"/>
                             <constraint firstItem="d1M-uz-l3M" firstAttribute="trailing" secondItem="WHH-Yx-wZE" secondAttribute="trailing" id="YKd-Gv-VHs"/>
+                            <constraint firstItem="7N6-f6-bYF" firstAttribute="width" secondItem="toA-Tk-bcf" secondAttribute="width" multiplier="0.6" id="ZpJ-Is-Rkv"/>
                             <constraint firstItem="qTZ-lm-M0M" firstAttribute="centerX" secondItem="toA-Tk-bcf" secondAttribute="centerX" id="h91-hz-4vm"/>
                             <constraint firstItem="WHH-Yx-wZE" firstAttribute="top" secondItem="d1M-uz-l3M" secondAttribute="top" constant="30" id="p2d-sS-KTd"/>
+                            <constraint firstItem="7N6-f6-bYF" firstAttribute="centerX" secondItem="d1M-uz-l3M" secondAttribute="centerX" id="yRi-X0-bNv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d1M-uz-l3M"/>
                     </view>
@@ -301,6 +319,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HC2-zz-QcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245.59999999999999" y="791.15442278860576"/>
+        </scene>
+        <!--Photo Select View Controller-->
+        <scene sceneID="0dg-tE-bnL">
+            <objects>
+                <viewController id="cBM-4G-7iT" customClass="PhotoSelectViewController" customModule="FireStoreTesting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qke-qZ-EyQ">
+                        <rect key="frame" x="0.0" y="0.0" width="225" height="225"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2d7-Tv-bE6">
+                                <rect key="frame" x="0.0" y="0.0" width="225" height="225"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4O-Og-F6b">
+                                <rect key="frame" x="0.0" y="0.0" width="225" height="225"/>
+                                <state key="normal" title="Select a Photo">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPhotoButtonTapped:" destination="cBM-4G-7iT" eventType="touchUpInside" id="Z3i-OY-MGm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2d7-Tv-bE6" firstAttribute="width" secondItem="Qke-qZ-EyQ" secondAttribute="width" id="3Kf-sN-we9"/>
+                            <constraint firstItem="g4O-Og-F6b" firstAttribute="height" secondItem="2d7-Tv-bE6" secondAttribute="height" id="8vl-aF-HTp"/>
+                            <constraint firstItem="g4O-Og-F6b" firstAttribute="centerY" secondItem="2d7-Tv-bE6" secondAttribute="centerY" id="Cj0-VL-jIp"/>
+                            <constraint firstItem="g4O-Og-F6b" firstAttribute="width" secondItem="2d7-Tv-bE6" secondAttribute="width" id="FJo-jg-PoE"/>
+                            <constraint firstItem="2d7-Tv-bE6" firstAttribute="centerX" secondItem="Qke-qZ-EyQ" secondAttribute="centerX" id="Knb-fm-Wwd"/>
+                            <constraint firstItem="g4O-Og-F6b" firstAttribute="centerX" secondItem="2d7-Tv-bE6" secondAttribute="centerX" id="mQt-QA-Ayj"/>
+                            <constraint firstItem="2d7-Tv-bE6" firstAttribute="centerY" secondItem="Qke-qZ-EyQ" secondAttribute="centerY" id="nB0-wt-HBL"/>
+                            <constraint firstItem="2d7-Tv-bE6" firstAttribute="height" secondItem="Qke-qZ-EyQ" secondAttribute="height" id="zGS-fM-9Sh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wz9-Py-VuO"/>
+                    </view>
+                    <connections>
+                        <outlet property="photoImageView" destination="2d7-Tv-bE6" id="G2g-i4-wjg"/>
+                        <outlet property="selectPhotoButton" destination="g4O-Og-F6b" id="ZlT-63-uAA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRy-eP-EW2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2514" y="-600"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
