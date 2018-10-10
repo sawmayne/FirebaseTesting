@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560894389.745572"
+            timestampString = "560895643.8438081"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560894389.746121"
+            timestampString = "560895643.844345"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560894389.746508"
+            timestampString = "560895643.8447419"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -58,7 +58,7 @@
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560894390.01661"
+                  timestampString = "560895520.3983099"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
@@ -73,7 +73,7 @@
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560894390.0192"
+                  timestampString = "560895520.400772"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560894389.746888"
+            timestampString = "560895643.8451819"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -106,7 +106,7 @@
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560894390.026147"
+                  timestampString = "560895520.407619"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -121,7 +121,7 @@
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560894390.028541"
+                  timestampString = "560895520.410295"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "50"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560894389.74727"
+            timestampString = "560895643.845697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560894389.7476521"
+            timestampString = "560895643.84624"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560894389.748029"
+            timestampString = "560895643.8466589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -186,7 +186,7 @@
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560894390.0438631"
+                  timestampString = "560895520.429456"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "25"
@@ -201,7 +201,7 @@
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560894390.045994"
+                  timestampString = "560895520.440619"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -209,6 +209,182 @@
                   offsetFromSymbolStart = "146">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/SignupViewController.swift"
+            timestampString = "560895643.847046"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "setup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireStoreTesting.SignupViewController.setup() -&gt; ()"
+                  moduleName = "FireStoreTesting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/VCs/SignupViewController.swift"
+                  timestampString = "560895520.4589339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "2445">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in FireStoreTesting.SignupViewController.setup() -&gt; ()"
+                  moduleName = "FireStoreTesting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/VCs/SignupViewController.swift"
+                  timestampString = "560895520.461619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/SignupViewController.swift"
+            timestampString = "560895643.8471299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "setup()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/SignupViewController.swift"
+            timestampString = "560895643.847208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "signUpButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/SignupViewController.swift"
+            timestampString = "560895643.847283"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setup()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/PhotoSelectViewController.swift"
+            timestampString = "560895643.8473589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/PhotoSelectViewController.swift"
+            timestampString = "560895643.8474309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/SignupViewController.swift"
+            timestampString = "560895643.847501"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "photoSelected(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/SignupViewController.swift"
+            timestampString = "560895643.847571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "photoSelected(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/VCs/SignupViewController.swift"
+            timestampString = "560895643.847641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "photoSelected(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

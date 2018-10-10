@@ -228,7 +228,7 @@
                                     <constraint firstAttribute="width" secondItem="7N6-f6-bYF" secondAttribute="height" multiplier="1:1" id="ACT-77-DEU"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="cBM-4G-7iT" kind="embed" id="nuy-0m-2hq"/>
+                                    <segue destination="cBM-4G-7iT" kind="embed" identifier="toPhotoSelectVC" id="nuy-0m-2hq"/>
                                 </connections>
                             </containerView>
                         </subviews>

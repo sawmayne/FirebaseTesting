@@ -17,7 +17,11 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var nameTF: UITextField!
     @IBOutlet weak var ageTF: UITextField!
     
-    var photo: UIImage?
+    var photo: UIImage?{
+        didSet{
+            print("Image set up on signup VC")
+        }
+    }
     
     func setup(){
         guard let email = emailTF.text, !email.isEmpty else { return }
@@ -48,6 +52,7 @@ class SignupViewController: UIViewController {
         nameTF.placeholder = "Enter name"
         ageTF.placeholder = "Enter age"
     }
+    
     
     //image picker
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

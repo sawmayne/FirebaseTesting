@@ -52,10 +52,10 @@ class UserController {
                         completion(false) ; return
                     }
                     guard let url = url else { return }
-                    
+                    let imageAsString = url.absoluteString
                     let values = ["name" : name,
                                   "age" : age,
-                                  "imageAsString" : url,
+                                  "imageAsString" : imageAsString,
                                   "email" : email] as [String : Any]
                     self.userRef.document(uuid).setData(values)
                 })
