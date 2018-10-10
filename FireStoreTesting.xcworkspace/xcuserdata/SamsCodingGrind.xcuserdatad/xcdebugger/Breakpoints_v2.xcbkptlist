@@ -10,43 +10,75 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FireStoreTesting/MCs/UserController.swift"
-            timestampString = "560825842.290556"
+            timestampString = "560894389.745572"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "readUser()"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "signup(email:password:name:age:profilePic:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/MCs/UserController.swift"
+            timestampString = "560894389.746121"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "signup(email:password:name:age:profilePic:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/MCs/UserController.swift"
+            timestampString = "560894389.746508"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "signup(email:password:name:age:profilePic:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FireStoreTesting.UserController.readUser(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireStoreTesting.UserController.signup(email: Swift.String, password: Swift.String, name: Swift.String, age: Swift.Int, profilePic: __C.UIImage, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560825842.520215"
+                  timestampString = "560894390.01661"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "31">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1962">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRDocumentSnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireStoreTesting.UserController.readUser(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireStoreTesting.UserController.signup(email: Swift.String, password: Swift.String, name: Swift.String, age: Swift.Int, profilePic: __C.UIImage, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
-                  timestampString = "560825842.522638"
+                  timestampString = "560894390.0192"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "79">
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "157">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -57,44 +89,124 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FireStoreTesting/VCs/ProfileViewController.swift"
-            timestampString = "560825842.290658"
+            filePath = "FireStoreTesting/MCs/UserController.swift"
+            timestampString = "560894389.746888"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "read()"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "signup(email:password:name:age:profilePic:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FireStoreTesting.ProfileViewController.read() -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireStoreTesting.UserController.signup(email: Swift.String, password: Swift.String, name: Swift.String, age: Swift.Int, profilePic: __C.UIImage, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/VCs/ProfileViewController.swift"
-                  timestampString = "560825842.536554"
+                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
+                  timestampString = "560894390.026147"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "26">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1325">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireStoreTesting.ProfileViewController.read() -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireStoreTesting.UserController.signup(email: Swift.String, password: Swift.String, name: Swift.String, age: Swift.Int, profilePic: __C.UIImage, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
                   moduleName = "FireStoreTesting"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/VCs/ProfileViewController.swift"
-                  timestampString = "560825842.539204"
+                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
+                  timestampString = "560894390.028541"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "37">
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/MCs/UserController.swift"
+            timestampString = "560894389.74727"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "signup(email:password:name:age:profilePic:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/MCs/UserController.swift"
+            timestampString = "560894389.7476521"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "signup(email:password:name:age:profilePic:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireStoreTesting/MCs/UserController.swift"
+            timestampString = "560894389.748029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "signup(email:password:name:age:profilePic:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireStoreTesting.UserController.signup(email: Swift.String, password: Swift.String, name: Swift.String, age: Swift.Int, profilePic: __C.UIImage, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "FireStoreTesting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
+                  timestampString = "560894390.0438631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireStoreTesting.UserController.signup(email: Swift.String, password: Swift.String, name: Swift.String, age: Swift.Int, profilePic: __C.UIImage, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "FireStoreTesting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SamsCodingGrind/Desktop/Topics/FireStoreTesting/FireStoreTesting/MCs/UserController.swift"
+                  timestampString = "560894390.045994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "146">
                </Location>
             </Locations>
          </BreakpointContent>

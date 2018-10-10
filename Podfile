@@ -6,8 +6,10 @@ target 'FireStoreTesting' do
   use_frameworks!
 
   # Pods for FireStoreTesting
+
 pod 'Firebase/Core'
 pod 'Firebase/Firestore'
 pod 'Firebase/Auth'
+pod 'Firebase/Storage'
 
 end

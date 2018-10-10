@@ -11,13 +11,11 @@ import UIKit
 class User {
     var name: String
     var age: Int
-//    var profilePic: UIImage
-//    var uid: String
+    var profilePicAsString: String
     
-    init(name: String, age: Int) {
+    init(name: String, age: Int, profilePicAsString: String) {
         self.name = name
         self.age = age
-//        self.profilePic = profilePic
-//        self.uid = uid
+        self.profilePicAsString = profilePicAsString
     }
 }
