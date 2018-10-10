@@ -11,27 +11,28 @@ import Firebase
 import FirebaseAuth
 
 class ProfileViewController: UIViewController {
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        read()
     }
     
-    func read(data user: User) {
-        UserController.shared.readUser(user: user)
+    func read() {
+        UserController.shared.readUser { (error) in
+            if let _ = error{
+                fatalError()
+            }else {
+                print("successfully read data")
+                
+                self.nameLabel.text = UserController.shared.currentUser?.name
+                self.ageLabel.text = "\(UserController.shared.currentUser?.age)"
+            }
+        }
+        
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
