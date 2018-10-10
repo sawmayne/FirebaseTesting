@@ -218,7 +218,7 @@
                                     <color key="titleColor" red="0.49957716464996338" green="0.94792670011520386" blue="0.090003557503223419" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="signUpButtonTapped:" destination="FWV-E2-dvh" eventType="touchUpInside" id="NEb-V4-Ih8"/>
+                                    <action selector="signUpButtonTapped:" destination="FWV-E2-dvh" eventType="touchUpInside" id="J0o-E2-8Dd"/>
                                     <segue destination="T9y-gZ-UBi" kind="show" id="DFC-2E-eFo"/>
                                 </connections>
                             </button>

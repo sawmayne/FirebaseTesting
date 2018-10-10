@@ -22,7 +22,14 @@ class SignupViewController: UIViewController {
     func setup(){
         guard let email = emailTF.text, !email.isEmpty else { return }
         guard let password = passwordTF.text, !password.isEmpty else { return }
-        UserController.shared.signup(email: email, password: password, name: nameTF.text ?? "No name", age: Int(ageTF.text!) ?? 0)
+        guard let age = Int(ageTF.text!) else { return }
+        guard let name = nameTF.text, !name.isEmpty else { return }
+        guard let photo = photo else { return }
+        UserController.shared.signup(email: email, password: password, name: name, age: age, profilePic: photo) { (success) in
+            if success == true {
+                print("wooo")
+            }
+        }
     }
     
     @IBAction func signUpButtonTapped(_ sender: Any) {
@@ -31,7 +38,11 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        UserController.shared.readUser { (error) in
+            if let error = error {
+                print("error reading user data \(error.localizedDescription)")
+            }
+        }
         emailTF.placeholder = "Enter email address"
         passwordTF.placeholder = "Enter password"
         nameTF.placeholder = "Enter name"
@@ -49,6 +60,7 @@ class SignupViewController: UIViewController {
 extension SignupViewController: PhotoSelectViewControllerDelegate{
     func photoSelected(_ photo: UIImage) {
         self.photo = photo
+        print("🤕image selected🤕")
     }
     
 }
